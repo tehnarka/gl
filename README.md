@@ -18,4 +18,10 @@
 
 Note: we don't practice writing proper unit tests here in the sense that you are allowed to write _any_ code that involves lists as long as it's sensible.
 
-In a real world, one of requirements for unit tests is that they should cover only code that is directly under scrutiny, i.e. if we test lists, we test their construction, concatenation, element addition, removal, lookup etc. When we are asserting e.g. that `list(map(lambda x: x + 1, [1,2,3])) == [2,3,4]`, we are actually testing the `map` function. However, for our purposes this is fine as long as you remember this argument.
+In a real world, one of requirements for unit tests is that they should cover only code that is directly under scrutiny, i.e. if we test lists, we test their construction, concatenation, element addition, removal, lookup etc. When we are asserting e.g.
+
+`list(map(lambda x: x + 1, [1,2,3])) == [2,3,4]`,
+
+we are actually testing the `map` function. 
+
+However, for our purposes this is fine as long as you remember this argument.
