@@ -1,7 +1,7 @@
 # git, github & CI basics
 
 1. Clone this repository
-2. Come up with a reasonable real-wrold requirement for a list or a function on one or more lists
+2. Come up with a reasonable real-world requirement for a list or a function on one or more lists
 3. Create an issue labelled "Test for ... is missing"
 4. Add a corresponding unit test
 5. Add your name to the CONTRIBUTORS file
