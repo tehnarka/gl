@@ -3,7 +3,7 @@ name: run tests
 on: [push, pull_request]
 
 jobs:
-  test:
+  lint_and_test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
