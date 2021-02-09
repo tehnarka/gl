@@ -3,11 +3,13 @@
 1. Clone this repository
 2. Come up with a reasonable real-world requirement for a list or a function on one or more lists
 3. Create an issue labelled "Test for ... is missing"
-4. Add a corresponding unit test
-5. Add your name to the CONTRIBUTORS file
-6. Push the code to a new branch
-7. Create a pull requests saying "Closes #..." (referencing your issue)
-8. Make sure your tests are green and your PR is mergeable
+4. Add a corresponding unit test _that is failing_
+5. Push the code to a new branch and open a pull request saying "Closes #..." (referencing your issue)
+6. See that an action running tests is failing
+7. Fix the code to make tests pass
+8. Add your name to the CONTRIBUTORS file
+9. Push the code again and check that the tests are green
+10. Wait for the PR to be approved and merge it
 
 ## Examples of functions:
 - test that empty list `e` + any list `l` is equal to `l`
