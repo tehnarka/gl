@@ -27,3 +27,7 @@ In a real world, one of requirements for unit tests is that they should cover on
 we are actually testing the `map` function. 
 
 However, for our purposes this is fine as long as you remember this argument.
+
+## Useful links
+
+- [git cheat sheet](https://github.com/arslanbilal/git-cheat-sheet)
