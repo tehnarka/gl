@@ -2,5 +2,7 @@
     conditions:
       - "#approved-reviews-by>=1"
     actions:
+    actions:
+      update: {}
       merge:
-        method: merge
+        method: squash
