@@ -9,9 +9,9 @@ class TestListMethods(unittest.TestCase):
         self.assertEqual(len(['a', 'b']), 2)
 
     def test_polina_kozarovitskaya(self):
-        l= [1,2,3]
-        l.clear()
-        self.assertEqual(len(l),0)
+        t = [1, 2, 3]
+        t.clear()
+        self.assertEqual(len(t), 0)
 
 
 if __name__ == '__main__':
