@@ -12,5 +12,7 @@ class TestListMethods(unittest.TestCase):
         l= [1,2,3]
         l.clear()
         self.assertEqual(len(l),0)
+
+
 if __name__ == '__main__':
     unittest.main()
