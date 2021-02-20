@@ -39,6 +39,10 @@ class TestListMethods(unittest.TestCase):
         listo2 = [1, 2, 3, 4, 6, 6, 7]
         self.assertIsNot(listo1[4], listo2[4])
 
+    def test_kirill_kostiuk(self):
+        self.assertEqual(len(['a', 'b'] + ['b']), 3)
+        self.assertEqual(['a', 'b'] + ['b'], ['a', 'b', 'b'])
+
 
 if __name__ == '__main__':
     unittest.main()
