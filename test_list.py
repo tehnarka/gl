@@ -39,6 +39,10 @@ class TestListMethods(unittest.TestCase):
     def test_illia_kripaka_fi_94_2(self):
         self.assertEqual(2 * [1, 3, 5], [1, 3, 5, 1, 3, 5])
 
+    def test_maria_martynova_fi_93(self):
+        self.assertEqual(len([0]), 1)
+        self.assertEqual(len([1, 1]), 2)
+
     def test_kostiantyn_baievskyi_fi_93(self):
         self.assertEqual([1, 2, 3] + [4, 5, 6], [1, 2, 3, 4, 5, 6])
 
