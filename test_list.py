@@ -8,9 +8,6 @@ class TestListMethods(unittest.TestCase):
         self.assertEqual(len(['a']), 1)
         self.assertEqual(len(['a', 'b']), 2)
 
-    def test_roman_tkalenko_2(self):
-        self.assertEqual(2, 2)
-
     def test_polina_kozarovitskaya(self):
         t = [1, 2, 3]
         t.clear()
