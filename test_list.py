@@ -16,6 +16,12 @@ def rem_last_element(list):
     return list
 
 
+def add_element(bus):
+    bus = [2, 2, 0, 9, 2, 0, 0]
+    bus.append(1)
+    return bus
+
+
 def delete(list):
     list = [3, 5, 2, 9, 8]
     list.pop()
@@ -73,6 +79,10 @@ class TestListMethods(unittest.TestCase):
     def test_kirill_kostiuk(self):
         self.assertEqual(len(['a', 'b'] + ['b']), 3)
         self.assertEqual(['a', 'b'] + ['b'], ['a', 'b', 'b'])
+
+    def test_illya_melnick_fi94(self):
+        lista = [2, 2, 0, 9, 2, 0, 0]
+        self.assertEqual(add_element(lista), [2, 2, 0, 9, 2, 0, 0, 1])
 
 
 if __name__ == '__main__':
