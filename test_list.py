@@ -8,6 +8,5 @@ class TestListMethods(unittest.TestCase):
         t.clear()
         self.assertEqual(len(t), 0)
 
-
 if __name__ == '__main__':
     unittest.main()
