@@ -80,6 +80,9 @@ class TestListMethods(unittest.TestCase):
         self.assertEqual(len(['a', 'b'] + ['b']), 3)
         self.assertEqual(['a', 'b'] + ['b'], ['a', 'b', 'b'])
 
+    def test_olena_velychko_fi_94(self):
+        self.assertEqual(3 * [1, 2, 3], [1, 2, 3, 1, 2, 3, 1, 2, 3])
+
     def test_illya_melnick_fi94(self):
         lista = [2, 2, 0, 9, 2, 0, 0]
         self.assertEqual(add_element(lista), [2, 2, 0, 9, 2, 0, 0, 1])
