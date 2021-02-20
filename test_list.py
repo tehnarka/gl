@@ -11,9 +11,6 @@ class TestListMethods(unittest.TestCase):
         self.assertEqual(2*[1, 3, 5], [1, 3, 5, 1, 3, 5])
 
     def test_polina_kozarovitskaya(self):
-        l= [1,2,3]
-        l.clear()
-        self.assertEqual(len(l),0)
         t = [1, 2, 3]
         t.clear()
         self.assertEqual(len(t), 0)
