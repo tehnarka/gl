@@ -46,6 +46,9 @@ class TestListMethods(unittest.TestCase):
     def test_roman_tkalenko_2(self):
         self.assertEqual(2, 2)
 
+    def test_maksym_orzhahivsky_fi_93(self):
+        self.assertEqual(sum([1, 2, 3])/len([1, 2, 3]), 2)
+
     def test_Yegor_Panasuk_FI94(self):
         list = [1, 2, 3, 4, 5, 6]
         self.assertEqual(rem_last_element(list), [1, 2, 3, 4, 5])
