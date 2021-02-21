@@ -28,6 +28,11 @@ def delete(list):
     return list
 
 
+def del_third_element(list):
+    list.remove(list[-4])
+    return list
+
+
 class TestListMethods(unittest.TestCase):
     def test_liubov_peleshenko_fi_94(self):
         list = [1, 2, 3, 4, 5, 6]
@@ -95,6 +100,10 @@ class TestListMethods(unittest.TestCase):
 
     def test_dmytro_moldovan_(self):
         self.assertEqual(len([]), 0)
+
+    def test_Yelizaveta_Godovikova_FI94(self):
+        list = ['a', 'k', 'j', 'y', 'r', 'o']
+        self.assertEqual(del_third_element(list), ['a', 'k', 'y', 'r', 'o'])
 
 
 if __name__ == '__main__':
