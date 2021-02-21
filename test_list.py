@@ -90,6 +90,9 @@ class TestListMethods(unittest.TestCase):
         lista = [2, 2, 0, 9, 2, 0, 0]
         self.assertEqual(add_element(lista), [2, 2, 0, 9, 2, 0, 0, 1])
 
+    def test_dmytro_moldovan_(self):
+        self.assertEqual(len([]), 0)
+
 
 if __name__ == '__main__':
     unittest.main()
