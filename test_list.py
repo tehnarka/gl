@@ -118,6 +118,10 @@ class TestListMethods(unittest.TestCase):
         self.assertEqual(max([4, 12, 1]), 12)
         self.assertEqual(max([1, 2, 3]), 3)
 
+    def test_lev_smishko_fi93(self):
+        list = [1, 2, 3, 4, 5]
+        self.assertEqual(list[0], 1)
+
 
 if __name__ == '__main__':
     unittest.main()
