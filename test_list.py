@@ -46,6 +46,10 @@ def swap_elements(list):
     list[1], list[2] = list[2], list[1]
     return list
 
+def delete_first_element(list):
+    list.pop(0)
+    return list
+
 
 class TestListMethods(unittest.TestCase):
     def test_liubov_peleshenko_fi_94(self):
