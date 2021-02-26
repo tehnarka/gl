@@ -141,6 +141,9 @@ class TestListMethods(unittest.TestCase):
         list = [2, 4, 6, 8, 10, 12, 14]
         self.assertEqual(swap_elements(list), [2, 6, 4, 8, 10, 12, 14])
 
+    def test_Olga_Nemkovych_FI94(self):
+        list = [1, 2, 3, 4, 5, 6]
+        self.assertEqual(delete_first_element(list), [2, 3, 4, 5, 6])
 
 if __name__ == '__main__':
     unittest.main()
