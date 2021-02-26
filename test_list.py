@@ -46,6 +46,7 @@ def swap_elements(list):
     list[1], list[2] = list[2], list[1]
     return list
 
+
 def delete_first_element(list):
     list.pop(0)
     return list
@@ -148,6 +149,7 @@ class TestListMethods(unittest.TestCase):
     def test_Olga_Nemkovych_FI94(self):
         list = [1, 2, 3, 4, 5, 6]
         self.assertEqual(delete_first_element(list), [2, 3, 4, 5, 6])
+
 
 if __name__ == '__main__':
     unittest.main()
